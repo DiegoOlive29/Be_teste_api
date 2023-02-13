@@ -1,0 +1,19 @@
+{
+  "name": "Be_teste_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DiegoOlive29/Be_teste_api.git",
+  "author": "Diego Oliveira <Diego.o.guimaraes29@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules src/app.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
