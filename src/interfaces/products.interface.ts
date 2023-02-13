@@ -9,7 +9,7 @@ interface IProductsPriceResponse{
     id: number
     name: string
     price: number
-    price_discont: number
+    price_discont?: number
 }
 
 

@@ -5,7 +5,7 @@ const listProductsCalcController = async (req: Request, res: Response) => {
 
   try {
     const id = req.params.id
-    const idsProducts: number[] = req.body 
+    const {idsProducts} = req.body
     const  data = await listCalcProdcutsService(id, idsProducts)
     return res.json(data)
 
@@ -24,4 +24,4 @@ const listProductsCalcController = async (req: Request, res: Response) => {
 
 };
 
-export { listProductsCalcController };
+export { listProductsCalcController }
