@@ -5,5 +5,12 @@ interface IProductsResponse{
    
    }
    
-   
-   export {IProductsResponse}
+interface IProductsPriceResponse{
+    id: number
+    name: string
+    price: number
+    price_discont?: number
+}
+
+
+   export {IProductsResponse,IProductsPriceResponse}
